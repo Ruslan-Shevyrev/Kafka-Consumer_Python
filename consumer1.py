@@ -2,7 +2,7 @@ from kafka import KafkaConsumer
 
 bootstrap_servers = ''
 group_id = 'test1'
-topics = ["test111"]
+topics = ["test"]
 key = b'111'
 value = b'{"test": 123}'
 
